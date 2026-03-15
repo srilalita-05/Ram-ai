@@ -3,6 +3,8 @@ import chromadb
 import requests
 import os
 from chromadb.utils import embedding_functions
+from dotenv import load_dotenv
+load_dotenv()
 
 app = Flask(__name__)
 app.secret_key = "ramayana-ram-ai-secret"

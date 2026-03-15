@@ -2,6 +2,8 @@ import chromadb
 import requests
 from chromadb.utils import embedding_functions
 import os
+from dotenv import load_dotenv
+load_dotenv()
 
 # Setup
 client = chromadb.PersistentClient(path="./chroma_db")
