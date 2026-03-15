@@ -1,6 +1,31 @@
+# Virtual environment
 venv/
+
+# ChromaDB
 chroma_db/
+
+# Data files
+*.json
+
+# Environment variables
+.env
+
+# Python cache
 __pycache__/
 *.pyc
-*.json
-.env
+*.pyo
+*.pyd
+
+# Debug/test files
+debug_*.py
+*_test.py
+*_debug.py
+debug_output.py
+debug_scraper.py
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+desktop.ini
